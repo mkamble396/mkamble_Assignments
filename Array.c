@@ -23,4 +23,7 @@ void main()
 	}
 
 	printf("\n Max=%d\n Min=%d\n",max,min);
+	printf("Elements of Array a[%d]",n);
+	for(i=0;i<n;i++)
+		printf("%d ",a[i]);
 }

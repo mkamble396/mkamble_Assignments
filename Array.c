@@ -16,14 +16,13 @@ void main()
 
 	for(i=0;i<n;i++)
 	{
-		if(a[i]<min)
-			min=a[i];
-		else if(a[i]>max)
-			max=a[i];
+		if(a[i]<min) // checking if array ele is less than min then that it is update the value of min variable
+
+			min=a[i];// for update min value
+		else if(a[i]>max)  // checking if array ele is greater than  max that it is update the value of max variable
+
+			max=a[i];//for update max value
 	}
 
 	printf("\n Max=%d\n Min=%d\n",max,min);
-	printf("Elements of Array a[%d]",n);
-	for(i=0;i<n;i++)
-		printf("%d ",a[i]);
 }
